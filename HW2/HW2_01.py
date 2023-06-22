@@ -1,12 +1,26 @@
-def postalcode_check(code: str) -> bool:
+def is_valid_zip_code(zip_code: str) -> bool:
+    """check if zip code is valid.
 
-    if len(code) != 11 or code[5] != "-":
-        return False
-    for char in code:
-        if char not in "0123456789-":
-            return False
-    return True
+    Args:
+        zip_code (str): zip code string
 
-codes = ["alieotehdkf", "12345-67890", "34987-89325", "r46522-79879234", "2875345235738", "49812-02784", "7989f-38542"]
-res = [item for item in codes if postalcode_check(item)]
-print(res)
+    Returns:
+        bool: valid of not
+    """
+    return(
+        isinstance(zip_code, str)
+        and len(zip_code) == 11 
+        and zip_code[5] == "-" 
+        and zip_code[:5].isdigit() 
+        and zip_code[6:].isdigit()
+        )
+
+zip_codes = [ 
+    "1235-hello", 
+    "123$5-12345",
+    "1234512345",
+    "123.5-12345",
+    "12345-54321"
+]
+
+print(list(filter(is_valid_zip_code, zip_codes)))
