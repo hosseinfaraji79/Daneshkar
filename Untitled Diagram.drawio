@@ -1,17 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T14:16:15.723Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="DVb8dtSVXhXS1YcYY1f-" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-14T14:22:42.335Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="TtjsGwLCJm5ecrnQjsaI" version="21.7.1" type="github">
   <diagram name="Page-1" id="q8hfxHNaJwYTXuEGADpx">
-    <mxGraphModel dx="1878" dy="1211" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1385" dy="941" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="cLHsAPXT-a6-TEE5PeIE-11" value="بله" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-55" target="cLHsAPXT-a6-TEE5PeIE-59">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="708" y="228" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="720" y="88" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-5" value="&lt;h3&gt;حضور و غیاب&lt;/h3&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="96" y="48" width="120" height="80" as="geometry" />
         </mxCell>
@@ -86,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-53" value="گزارشات مورد تایید مدیر بخش است؟" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="312" y="30" width="144" height="116" as="geometry" />
+          <mxGeometry x="323" y="36" width="120" height="110" as="geometry" />
         </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-56" value="بله" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-53" target="cLHsAPXT-a6-TEE5PeIE-55">
           <mxGeometry relative="1" as="geometry">
@@ -102,8 +94,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="cLHsAPXT-a6-TEE5PeIE-97" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-55" target="cLHsAPXT-a6-TEE5PeIE-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cLHsAPXT-a6-TEE5PeIE-98" value="بله" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cLHsAPXT-a6-TEE5PeIE-97">
+          <mxGeometry x="-0.1185" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-55" value="آیا دیتای ماه جاری کامل شده است؟" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="552" y="48" width="80" height="80" as="geometry" />
+          <mxGeometry x="540" y="42" width="104" height="96" as="geometry" />
         </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-65" value="بله" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-59" target="cLHsAPXT-a6-TEE5PeIE-63">
           <mxGeometry relative="1" as="geometry" />
@@ -112,7 +112,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-59" value="آیا تایم شیت در حقوق ماهانه اعمال شود؟" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="720" y="30" width="116" height="120" as="geometry" />
+          <mxGeometry x="720" y="36" width="116" height="114" as="geometry" />
         </mxCell>
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-67" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-61" target="cLHsAPXT-a6-TEE5PeIE-6">
           <mxGeometry relative="1" as="geometry" />
@@ -183,10 +183,10 @@
         <mxCell id="cLHsAPXT-a6-TEE5PeIE-85" value="آیا پاداش یا کسوراتی به حقوق میخواهید اضافه کنید؟" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-124" y="328" width="136" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="cLHsAPXT-a6-TEE5PeIE-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-87" target="cLHsAPXT-a6-TEE5PeIE-30">
+        <mxCell id="cLHsAPXT-a6-TEE5PeIE-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.563;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cLHsAPXT-a6-TEE5PeIE-87" target="cLHsAPXT-a6-TEE5PeIE-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-336" y="580" />
+              <mxPoint x="-336" y="595" />
             </Array>
           </mxGeometry>
         </mxCell>
